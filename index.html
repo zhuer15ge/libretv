@@ -203,7 +203,7 @@
                         <button onclick="resetToHome()" 
                                 class="w-20 sm:w-24 flex items-center justify-center bg-white text-black font-medium hover:bg-gray-200 transition-colors" 
                                 aria-label="返回首页" title="返回首页">
-                            直接进入观看
+                            首页
                         </button>
                         <!-- 搜索输入 -->
                         <input type="text" 
@@ -441,5 +441,11 @@
 
     <!-- 添加弹窗和URL搜索参数处理脚本 -->
     <script src="js/index-page.js"></script>
+    <script>
+        // 页面加载完成后自动进入首页
+        window.addEventListener('DOMContentLoaded', () => {
+            resetToHome();
+        });
+    </script>
 </body>
 </html>
