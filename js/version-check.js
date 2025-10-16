@@ -141,14 +141,14 @@ function addVersionInfoToFooter() {
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                CCFK.CC
+                免费影院
             </span>`;
             
             setTimeout(() => {
                 const updateBtn = versionElement.querySelector('span');
                 if (updateBtn) {
                     updateBtn.addEventListener('click', () => {
-                        window.open('https://CCFK.CC', '_blank');
+                        window.open('https://免费影院', '_blank');
                     });
                 }
             }, 100);
